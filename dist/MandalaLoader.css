@@ -1,0 +1,20 @@
+svg.mandala-svg {
+    width: 100%;
+    height: 100%;
+}
+svg.mandala-svg * {
+    fill: none;
+    stroke-width: 1px;
+    stroke: black;
+    transform-origin: center;
+}
+svg.mandala-svg circle.initial-circle {
+    fill: black;
+}
+svg.mandala-svg g {
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@keyframes spin-reverse { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }

@@ -1,0 +1,48 @@
+{
+  "name": "@yaniv-abu/random-mandala-loader-react",
+  "version": "0.2.7",
+  "main": "dist/mandala.js",
+  "module": "dist/mandala.js",
+  "babel": {
+    "presets": [
+      "@babel/react"
+    ]
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "publish": "NODE_ENV=production && rm -rf dist && mkdir dist && npx babel src/ --out-dir dist --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaniv-abu/random-mandala-loader-react.git"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4"
+  }
+}
