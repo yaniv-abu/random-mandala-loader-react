@@ -1,6 +1,6 @@
 {
   "name": "@yaniv-abu/random-mandala-loader-react",
-  "version": "0.2.7",
+  "version": "1.0.0",
   "main": "dist/mandala.js",
   "module": "dist/mandala.js",
   "babel": {
