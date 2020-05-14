@@ -1,17 +1,17 @@
 {
   "name": "@yaniv-abu/random-mandala-loader-react",
   "version": "1.0.0",
-  "main": "dist/mandala.js",
-  "module": "dist/mandala.js",
+  "main": "dist/Mandala.js",
+  "module": "dist/Mandala.js",
   "babel": {
     "presets": [
       "@babel/react"
     ]
   },
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "@testing-library/jest-dom": "^4.2.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "publish": "NODE_ENV=production && rm -rf dist && mkdir dist && npx babel src/ --out-dir dist --copy-files"
+    "publish": "NODE_ENV=production && rm -rf dist && mkdir dist && npx babel src/Mandala --out-dir dist --copy-files"
   },
   "repository": {
     "type": "git",
@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.8.4"
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6"
   }
 }

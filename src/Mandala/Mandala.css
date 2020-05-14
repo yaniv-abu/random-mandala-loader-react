@@ -5,11 +5,14 @@ svg.mandala-svg {
 svg.mandala-svg * {
     fill: none;
     stroke-width: 1px;
-    stroke: black;
+    stroke: #000;
     transform-origin: center;
 }
+svg.mandala-svg.clickable {
+    cursor: pointer;
+}
 svg.mandala-svg circle.initial-circle {
-    fill: black;
+    fill: #000;
 }
 svg.mandala-svg g {
     animation-iteration-count: infinite;
